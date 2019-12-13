@@ -1,8 +1,11 @@
 var express = require("express");
+var helmet = require("helmet");
 var fetch = require("node-fetch");
 var app = express();
 var port = process.env.PORT || 8080;
 var cors = require("cors");
+
+app.use(helmet());
 app.use(cors());
 app.listen(port);
 
