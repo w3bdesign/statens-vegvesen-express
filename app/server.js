@@ -5,8 +5,17 @@ var app = express();
 var port = process.env.PORT || 8080;
 var cors = require("cors");
 
+/*
+const corsOptions = {
+  origin: "https://sleepy-payne-cbfe8b.netlify.com"
+};
+*/
+
+const corsOptions = {
+  origin: "https://sleep-payne-cbfe8b.netlify.com"
+};
 app.use(helmet());
-app.use(cors());
+app.use(cors(corsOptions));
 app.listen(port);
 
 // routes will go here
