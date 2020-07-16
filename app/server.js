@@ -7,7 +7,7 @@ var cors = require('cors');
 
 // Set allowed URL for CORS
 const corsOptions = {
-  origin: 'https://sleepy-payne-cbfe8b.netlify.app',
+  origin: 'https://vegvesen.dfweb.no',
 };
 
 app.use(helmet());
