@@ -7,7 +7,7 @@ var cors = require('cors');
 
 // Set allowed URL for CORS
 const corsOptions = {
-  origin: 'https://vegvesen.dfweb.no',
+  origin: ['https://vegvesen.dfweb.no', 'http://localhost:1234'],
 };
 
 app.use(helmet());
