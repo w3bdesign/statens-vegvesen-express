@@ -1,3 +1,5 @@
 # Statens Vegvesen backend
 
-Backend for serverless application used by https://github.com/w3bdesign/Statens-Vegvesen
+Backend for serverless backend application used by https://github.com/w3bdesign/Statens-Vegvesen
+
+Uses Typescript
