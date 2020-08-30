@@ -3,8 +3,9 @@
   "version": "1.0.4",
   "description": "",
   "main": "dist/server.js",
-  "scripts": {       
-    "start": "node server.js"
+  "scripts": {
+    "build": "tsc",       
+    "start": "node ./dist/server.js"
   },
   "author": "",  
   "license": "ISC",
