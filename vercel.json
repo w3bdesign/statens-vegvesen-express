@@ -1,11 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "/app/server.ts",
-      "use": "@now/node-server"
-    }
-  ],
-
   "routes": [
     {
       "headers": {
@@ -14,7 +7,7 @@
         "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
       },
       "src": "/.*",
-      "dest": "/app/server.ts"
+      "dest": "/dist/server.js"
     }
   ]
 }
