@@ -4,9 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",       
+    "start": "node ./dist/server.js"
   },
-  "author": "",
+  "author": "",  
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
