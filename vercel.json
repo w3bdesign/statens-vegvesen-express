@@ -4,7 +4,7 @@
       "source": "/api/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
-        { "key": "Access-Control-Allow-Origin", "value": "vegvesen.dfweb.no" },
+        { "key": "Access-Control-Allow-Origin", "value": "https://vegvesen.dfweb.no" },
         { "key": "Access-Control-Allow-Methods", "value": "GET" },
         {
           "key": "Access-Control-Allow-Headers",
