@@ -3,9 +3,8 @@
   "version": "1.0.4",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "build": "tsc",
-    "start": "node ./dist/server.js"
+  "scripts": {    
+    "start": "node ./api/index.ts"
   },
   "author": "",
   "license": "ISC",
