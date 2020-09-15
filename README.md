@@ -6,4 +6,4 @@ Uses Typescript
 
 ## TODO
 
-Add proper error handling. See https://github.com/node-fetch/node-fetch/blob/master/docs/ERROR-HANDLING.md
+- Add proper error handling. See https://github.com/node-fetch/node-fetch/blob/master/docs/ERROR-HANDLING.md
