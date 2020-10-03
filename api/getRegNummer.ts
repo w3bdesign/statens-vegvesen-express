@@ -9,6 +9,7 @@ export default function getRegNummer(req: NowRequest, res: NowResponse) {
       .then((response) => response.json())
       .then((data) => {
         res.send(data);
-      });
+      })
+      .catch((error) => res.send(error));
   }
 }
