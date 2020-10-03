@@ -1,6 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-unused-vars */
-
 import { NowRequest, NowResponse } from '@vercel/node';
 import fetch from 'node-fetch';
 

@@ -1,20 +1,17 @@
-/* eslint-disable linebreak-style */
 module.exports = {
   env: {
     browser: true,
     es2020: true,
   },
-  extends: [
-    'airbnb-base',
-  ],
+  extends: ['airbnb-base'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    '@typescript-eslint',
-  ],
+  plugins: ['@typescript-eslint'],
   rules: {
+    'linebreak-style': 0,
+    'no-unused-vars': 0,
   },
 };
