@@ -1,9 +1,10 @@
 {
   "name": "statens-vegvesen-express",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "scripts": {
-    "start": "node ./api/getRegNummer.ts"
+    "start": "ts-node ./api/getRegNummer.ts",
+    "dev": "vercel dev"
   },
   "author": "",
   "license": "ISC",
@@ -20,7 +21,7 @@
     "@types/node-fetch": "^2.5.8",
     "@typescript-eslint/eslint-plugin": "^4.15.2",
     "@typescript-eslint/parser": "^4.15.2",
-    "eslint": "^7.20.0",
+    "eslint": "^7.21.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "ts-node": "^9.1.1",
