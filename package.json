@@ -1,9 +1,10 @@
 {
   "name": "statens-vegvesen-express",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "scripts": {
-    "start": "ts-node ./api/getRegNummer.ts"
+    "start": "ts-node ./api/getRegNummer.ts",
+    "dev": "vercel dev"
   },
   "author": "",
   "license": "ISC",
